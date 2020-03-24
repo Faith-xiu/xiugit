@@ -55,3 +55,6 @@ find . -name ".git" | xargs rm -Rf
 
 git remote rm [仓库名]
 删除远程仓库
+
+git revert
+远程仓库回溯
