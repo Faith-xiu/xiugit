@@ -52,3 +52,6 @@ git push [库名] master
 
 find . -name ".git" | xargs rm -Rf
 删除本地仓库
+
+git remote rm [仓库名]
+删除远程仓库
