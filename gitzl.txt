@@ -49,3 +49,6 @@ git merge
 
 git push [库名] master
 推送到远程库中
+
+find . -name ".git" | xargs rm -Rf
+删除本地仓库
